@@ -1,0 +1,72 @@
+/* Gaya untuk navigasi */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Gaya untuk teks judul pada navigasi kiri */
+.nav-left h1 {
+    font-family: Poppins;
+    font-size: 1cm;
+    margin: 10px 20px;
+}
+
+/* Gaya untuk tombol-tombol di navigasi kanan */
+.nav-right div {
+    font-family: Roboto;
+    font-weight: 500;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+/* Gaya untuk konten utama */
+.content {
+    display: flex; /* Mengubah tata letak content menjadi flex */
+    flex-direction: column; /* Mengatur content agar memiliki tata letak kolom */
+    align-items: center; /* Memposisikan konten ke tengah secara horizontal */
+    margin: auto;
+}
+
+/* Gaya untuk gambar-gambar */
+.images {
+    display: flex;
+    justify-content: center; /* Memposisikan gambar di tengah secara horizontal */
+    align-items: center; /* Memposisikan gambar di tengah secara vertikal */
+    flex-wrap: wrap; /* Untuk memastikan gambar berada dalam satu baris */
+}
+
+.images img {
+    margin: 2%; /* Memberikan sedikit jarak antara gambar */
+    width: 30%; /* Menyesuaikan lebar gambar relatif terhadap lebar viewport */
+    height: auto; /* Menjaga rasio aspek gambar */
+}
+
+/* Gaya untuk footer */
+.footers {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Gaya untuk elemen di dalam footer */
+.footers div {
+    padding: 20px;
+    font-family: Roboto;
+    margin: 40px;
+}
+
+/* Gaya untuk tombol */
+button {
+    padding: 0px;
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: white;
+    border: 0;
+    font-size: large;
+    color: rgb(114, 111, 111);
+}
+
+/* Gaya saat tombol dihover */
+button:hover {
+    color: black;
+}
